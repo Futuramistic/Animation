@@ -10,7 +10,7 @@
 
 #include "BVHAnimator.h"
 
-#define TEST_IK
+//#define TEST_IK
 
 #include <GL/glut.h>
 
@@ -330,7 +330,6 @@ static void skeyboard(int key, int x, int y)
 	if (key == GLUT_KEY_PAGE_DOWN) {
 		target_z += 0.1;
 	}
-
 	if (bvh) {
 		bvhani->solveLeftArm(frame_no, animation_scale, target_x, target_y, target_z);
 	}

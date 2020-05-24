@@ -1,7 +1,7 @@
 # Animation - forward and inverse kinematics 
 <img src="https://github.com/Futuramistic/Animation/blob/master/GIFs/Walking.gif" align="right">
 
-## Forward kinematics - simulate movement of a human character.
+## Forward kinematics - simulate movement of a human character
 <div>
 Press ‘L’ key to load a .bvh file.
 In the viewport, you can rotate with left mouse,

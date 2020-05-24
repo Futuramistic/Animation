@@ -40,9 +40,10 @@ Uncomment the following line (line #7, right below the header) in BVHPlayer.cpp:
 
 This enables the program to draw a sphere at a specified target location and pose the
 character's left arm to reach the target with his left hand joint.
-
+<img src="https://github.com/Futuramistic/Animation/blob/master/images/ball2.PNG" align="right" width="148" height="240">
+<img src="https://github.com/Futuramistic/Animation/blob/master/images/ball1.PNG" align="right" width="148" height="240">
 Only uses <b>static poses</b>, i.e., only to draw the character at one
-particular frame. 
+particular frame. Only works for <b>"StartPose.bhv"</b>.
 
 We assume 3DOF (X-, Y-, Z- rotation) for shoulder joint and 1DOF for elbow
 joint, i.e., 4 variables and 3 constraints. We use Jacobian Inverse method.

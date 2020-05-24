@@ -49,4 +49,5 @@ We assume 3DOF (X-, Y-, Z- rotation) for shoulder joint and 1DOF for elbow
 joint, i.e., 4 variables and 3 constraints. We use Jacobian Inverse method.
 Use left, right, up, down arrow keys, pageUp and pageDown to move the target.
 
-The joint constraints are <b>not</b> taken into consideration!
+The joint constraints are <b>not</b> taken into consideration! Only whether or not the ball is reachable.
+(The elbow might bend unnaturally!)
